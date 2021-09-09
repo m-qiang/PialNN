@@ -1,10 +1,11 @@
 # PialNN: A Fast Deep Learning Framework for Cortical Pial Surface Reconstruction
 
-![](figure/visual.png)
+<!-- ![](figure/visual.png) -->
+<p style="text-align:center;"><img src="figure/visual.png" width="600" ></p>
 
 This repository contains the PyTorch implementation of the paper:
 
-PialNN: A Fast Deep Learning Framework for Cortical Pial Surface Reconstruction
+**PialNN: A Fast Deep Learning Framework for Cortical Pial Surface Reconstruction** [[Paper]](https://arxiv.org/abs/2109.03693)
 
 Qiang Ma, Emma C. Robinson, Bernhard Kainz, Daniel Rueckert, Amir Alansary
 
@@ -14,7 +15,10 @@ The 4th Workshop on Machine Learning in Clinical Neuroimaging ([MLCN2021](https:
 
 Pial Neural Network (PialNN) is a 3D deep learning framework for pial surface reconstruction. It is trained end-to-end to deform a given initial white matter surface to a target pial surface by a sequence of learned deformation blocks. PialNN is fast and memory-efficient, which allows reconstructing a pial surface mesh with **150k** vertices within **1s** runtime.
 
-![](figure/architecture.png)
+
+<p style="text-align:center;"><img src="figure/architecture.png" width="500" ></p>
+
+<!-- ![](figure/architecture.png =200x100) -->
 
 
 ## Get Started
